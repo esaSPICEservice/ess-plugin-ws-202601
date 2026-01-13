@@ -198,12 +198,12 @@ The plugin will add the stars to the cosmographia database and will be ready for
 
 ## [Extra II] 🏃🏼‍♂️‍➡️🏃‍♀️‍➡️ Running the plugin: Visualise kernel based scenes 🎇
 
-This extra plugin allows to visualise the JUICE (and other ESA planetary missions) spacecraft context based on existing kernels.
+This extra plugin allows to visualise the JUICE (and other ESA planetary missions) spacecraft context based on existing kernels. 
 
 
 <center><img src="images/ess_multi.png" alt="Multi mission"></center>
 
-The plugin will add the stars to the cosmographia database and will be ready for the next sessions.
+The plugin is an easy way to configure Cosmographias for a set of planetary ESA missions avoiding the need of loading complex catalog files. It will allow to interactively select instruments field of view and science structures related to each mission.
 
 #### 🍎 macOS/ 🐧 Linux
 
