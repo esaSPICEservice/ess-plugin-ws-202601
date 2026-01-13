@@ -58,6 +58,7 @@ It is also available for download from the NAIF website at http://naif.jpl.nasa.
 #### 🍎 macOS
 
 1. **Download the Mac OSX DMG**
+
 [SPICE-enhanced Cosmographia for Mac OSX (64-bit) (528 MB)](https://spiftp.esac.esa.int/cosmographia/cosmo-installer-4.2-osx.dmg) Compatibility: OS X 10.15 or later
 
 2. **Open the DMG**
@@ -78,7 +79,7 @@ After installing, the temporary installer can be deleted.
 
 2. **Follow the wizard instructions**
 
-⚠️ ***Please, take note of the install folder path, we will use it later.*** 
+🙏  ***Please, take note of the install folder path, we will use it later.*** 
 
 
 
@@ -91,18 +92,19 @@ Compatibility: Built on a machine running Ubuntu 16, but should run under most m
 
 2. **Follow the wizard instructions**
 
-⚠️ ***Please, take note of the install folder path, we will use it later.*** 
+🙏 ***Please, take note of the install folder path, we will use it later.*** 
 
 
 #### 🪟 Windows
 
 1. **Download the Windows installer**
+
 [SPICE-enhanced Cosmographia for Windows (64-bit) (560 MB)](https://spiftp.esac.esa.int/cosmographia/cosmo-installer-4.2-windows.exe) Compatibility: Windows 10 or later
 
 
 2. **Follow the wizard instructions**
 
-⚠️ ***Please, take note of the install folder path, we will use it later.*** 
+🙏 ***Please, take note of the install folder path, we will use it later.*** 
 
 
 
@@ -140,13 +142,15 @@ After the configuration is completed, cosmographia can be closed, it will be rea
       PS> cd ess-plugin
 * Execute the generic launcher script. The first time, it will ask for the full path of the Cosmographia installation. It saves that path in .cosmo_path file in your user home folder. On subsequent runs, it uses the saved path automatically. You can reset the saved path anytime, deleting the file.
 
-     PS> .\plugin_laucher.ps1
+      PS> .\plugin_laucher.ps1
 
 After the configuration is completed, cosmographia can be closed, it will be ready for the next session. 
 
 
-## Running the plugin: JUICE PTR
+## 🏃🏼‍♂️‍➡️🏃‍♀️‍➡️ Running the plugin: JUICE PTR 🎯
+The plugin allows to test and design pointing requests for the JUICE spacecraft. Using OSVE in the background, it will display the attitude of the spacecraft that is defined in a PTR file. The plugin allows to display instrument sensors field of view and some science structures of the Jovian system.
 
+<center><img src="images/ptr_editor.png" alt="JUICE PTR"></center>
 
 #### 🍎 macOS/ 🐧 Linux
 
@@ -155,7 +159,7 @@ After the configuration is completed, cosmographia can be closed, it will be rea
       $ cd ess-plugin
 * Execute the launcher
 
-      $ .\plugin_laucher.sh juice_ptr
+      $ .\plugin_launcher.sh juice_ptr
 
 ####  🪟 Windows (PowerShell terminal)
 * Open a PowerShell terminal and navigate to the **ess-plugin** repository directory
@@ -163,15 +167,60 @@ After the configuration is completed, cosmographia can be closed, it will be rea
       PS> cd ess-plugin
 * Execute the launcher
 
-      PS> .\plugin_laucher.ps1 juice_ptr
+      PS> .\plugin_launcher.ps1 juice_ptr
 
-## [Extra] Running the plugin: Adding stars
+## [Extra] 🏃🏼‍♂️‍➡️🏃‍♀️‍➡️ Running the plugin: Adding stars ✨
 
+Cosmographia by default only shows named stars whose magnitude is in a limited range. This behavior can be changed to show labeled points at any J2000 referenced position using the following plugin. This could be useful for stellar occultations checking or calibration planning.
+
+<center><img src="images/stardb.png" alt="Star DB"></center>
+
+The plugin will add the stars to the cosmographia database and will be ready for the next sessions.
 
 #### 🍎 macOS/ 🐧 Linux
 
-####  🪟 Windows
+* Open a terminal and navigate to the **ess-plugin** repository directory
 
+      $ cd ess-plugin
+* Execute the launcher
+
+      $ .\plugin_launcher.sh stardb
+
+####  🪟 Windows (PowerShell terminal)
+* Open a PowerShell terminal and navigate to the **ess-plugin** repository directory
+
+      PS> cd ess-plugin
+* Execute the launcher
+
+      PS> .\plugin_launcher.ps1 stardb
+
+
+
+## [Extra II] 🏃🏼‍♂️‍➡️🏃‍♀️‍➡️ Running the plugin: Visualise kernel based scenes 🎇
+
+This extra plugin allows to visualise the JUICE (and other ESA planetary missions) spacecraft context based on existing kernels.
+
+
+<center><img src="images/ess_multi.png" alt="Multi mission"></center>
+
+The plugin will add the stars to the cosmographia database and will be ready for the next sessions.
+
+#### 🍎 macOS/ 🐧 Linux
+
+* Open a terminal and navigate to the **ess-plugin** repository directory
+
+      $ cd ess-plugin
+* Execute the launcher
+
+      $ .\plugin_launcher.sh
+
+####  🪟 Windows (PowerShell terminal)
+* Open a PowerShell terminal and navigate to the **ess-plugin** repository directory
+
+      PS> cd ess-plugin
+* Execute the launcher
+
+      PS> .\plugin_launcher.ps1
 
 
 ## Links and Resource
