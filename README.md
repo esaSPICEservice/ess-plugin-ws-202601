@@ -142,7 +142,7 @@ After the configuration is completed, cosmographia can be closed, it will be rea
       PS> cd ess-plugin
 * Execute the generic launcher script. The first time, it will ask for the full path of the Cosmographia installation. It saves that path in .cosmo_path file in your user home folder. On subsequent runs, it uses the saved path automatically. You can reset the saved path anytime, deleting the file.
 
-      PS> .\plugin_laucher.ps1
+      PS> .\plugin_launcher.ps1
 
 After the configuration is completed, cosmographia can be closed, it will be ready for the next session. 
 
