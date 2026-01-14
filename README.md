@@ -150,7 +150,7 @@ After the configuration is completed, cosmographia can be closed, it will be rea
 ## 🏃🏼‍♂️‍➡️🏃‍♀️‍➡️ Running the plugin: JUICE PTR 🎯
 The plugin allows to test and design pointing requests for the JUICE spacecraft. Using OSVE in the background, it will display the attitude of the spacecraft that is defined in a PTR file. The plugin allows to display instrument sensors field of view and some science structures of the Jovian system.
 
-<center><img src="images/ptr_editor.png" alt="JUICE PTR"></center>
+<div style="text-align:center"><img src="images/dialog_ptr_editor.png" alt="Dialog Scenes" style="border:1px solid #000; border-radius:15px"></div>
 
 #### 🍎 macOS/ 🐧 Linux
 
@@ -173,7 +173,7 @@ The plugin allows to test and design pointing requests for the JUICE spacecraft.
 
 Cosmographia by default only shows named stars whose magnitude is in a limited range. This behavior can be changed to show labeled points at any J2000 referenced position using the following plugin. This could be useful for stellar occultations checking or calibration planning.
 
-<center><img src="images/stardb.png" alt="Star DB"></center>
+<div style="text-align:center"><img src="images/stardb.png" alt="Star DB" style="border:1px solid #000; border-radius:15px"></div>
 
 The plugin will add the stars to the cosmographia database and will be ready for the next sessions.
 
@@ -203,7 +203,7 @@ This extra plugin allows to visualise the JUICE (and other ESA planetary mission
 
 <center><img src="images/ess_multi.png" alt="Multi mission"></center>
 
-The plugin is an easy way to configure Cosmographias for a set of planetary ESA missions avoiding the need of loading complex catalog files. It will allow to interactively select instruments field of view and science structures related to each mission.
+The plugin is an easy way to configure Cosmographia for a set of planetary ESA missions avoiding the need of loading complex catalog files. It will allow to interactively select instruments field of view and science structures related to each mission.
 
 #### 🍎 macOS/ 🐧 Linux
 
@@ -223,7 +223,7 @@ The plugin is an easy way to configure Cosmographias for a set of planetary ESA 
       PS> .\plugin_launcher.ps1
 
 
-## Links and Resource
+## Links and Resources
 
 * https://naif.jpl.nasa.gov/naif/ - NAIF homepage
 * https://www.cosmos.esa.int/web/spice - SPICE homepage
