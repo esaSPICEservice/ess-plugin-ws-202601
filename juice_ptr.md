@@ -41,7 +41,7 @@ The SGS simulation software AGM/OSVE processes the XML pointing request and gene
 This CK file is loaded together with the remaining kernels defined in the metakernel. It is loaded with higher precedence, ensuring that the spacecraft attitude used by Cosmographia corresponds to the pointing request rather than the nominal attitude defined in the JUICE metakernel.
 
 
-<div style="text-align:center"><img src="images/dialog_ptr_editor.png" alt="Dialog Scenes" style="border:1px solid #000; border-radius:15px"></div>
+<div style="text-align:center"><img src="images/dialog_ptr_editor.png" alt="Dialog Scenes" align="center"></div>
 
 Selecting **Visualize** triggers the background execution of OSVE, generates the required kernels, and creates the corresponding Cosmographia scene. During execution, additional menu entries are registered in Cosmographia to expose plugin-specific functionality.
 
