@@ -85,7 +85,8 @@ The console is not intended for full scene configuration or persistent modificat
 
 Use of the console requires familiarity with Cosmographia scripting conventions and internal object models.
 
-<div style="text-align:center;"><img src="images/dialog_console.png" alt="Dialog Timeline"></p>
+<p align="center"><img src="images/dialog_console.png" alt="Dialog Timeline"></p>
+
 #### Catalog dialog
 The Catalog Dialog is intended for monitoring and inspection of Cosmographia catalogs currently loaded at runtime. It provides visibility into the catalogues that are actively being used by Cosmographia during the ongoing visualization session.
 
