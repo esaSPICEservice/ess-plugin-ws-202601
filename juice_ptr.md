@@ -47,7 +47,7 @@ Selecting **Visualize** triggers the background execution of OSVE, generates the
 
 The added menu entries are described in the following sections.
 
-<center><img src="images/main_menu_juice_ptr.png"></center>
+<p align="center"><img src="images/main_menu_juice_ptr.png"></p>
 
 
 In the case of 🍎 macOS/ 🐧 Linux the **Timeline Dialog** is automatically displayed after scene creation (see [timeline dialog section](#timeline-dialog-) for details).
