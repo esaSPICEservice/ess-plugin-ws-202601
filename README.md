@@ -159,7 +159,7 @@ The plugin allows to test and design pointing requests for the JUICE spacecraft.
       $ cd ess-plugin
 * Execute the launcher
 
-      $ .\plugin_launcher.sh juice_ptr
+      $ ./plugin_launcher.sh juice_ptr
 
 ####  🪟 Windows (PowerShell terminal)
 * Open a PowerShell terminal and navigate to the **ess-plugin** repository directory
@@ -184,7 +184,7 @@ The plugin will add the stars to the cosmographia database and will be ready for
       $ cd ess-plugin
 * Execute the launcher
 
-      $ .\plugin_launcher.sh stardb
+      $ ./plugin_launcher.sh stardb
 
 ####  🪟 Windows (PowerShell terminal)
 * Open a PowerShell terminal and navigate to the **ess-plugin** repository directory
@@ -212,7 +212,7 @@ The plugin is an easy way to configure Cosmographia for a set of planetary ESA m
       $ cd ess-plugin
 * Execute the launcher
 
-      $ .\plugin_launcher.sh
+      $ ./plugin_launcher.sh
 
 ####  🪟 Windows (PowerShell terminal)
 * Open a PowerShell terminal and navigate to the **ess-plugin** repository directory

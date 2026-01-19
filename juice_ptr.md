@@ -16,7 +16,7 @@ Platform-specific limitations apply; for example, timeline navigation is not ava
       $ cd ess-plugin
 * Execute the launcher
 
-      $ .\plugin_launcher.sh juice_ptr
+      $ ./plugin_launcher.sh juice_ptr
 
 ####  🪟 Windows (PowerShell terminal)
 * Open a PowerShell terminal and navigate to the **ess-plugin** repository directory
