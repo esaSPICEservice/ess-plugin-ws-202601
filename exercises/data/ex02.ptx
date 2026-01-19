@@ -1,0 +1,118 @@
+
+<prm>
+<body>
+    <segment>
+    <data>
+        <timeline frame="SC">
+              <!-- Block (303) -->
+               <block ref="OBS">
+                  <startTime> 2032-12-26T10:15:31 </startTime>
+                  <endTime> 2032-12-26T11:29:10 </endTime>
+                  <attitude ref="track">
+                     <boresight ref="SC_Zaxis" />
+                     <phaseAngle ref="powerOptimised">
+                        <yDir> false </yDir>
+                        <angle units="deg"> 90 </angle>
+                     </phaseAngle>
+                     <target ref="Jupiter" />
+                  </attitude>
+                  <metadata>
+                     <planning>
+                        <observations designer="SWI">
+                           <observation>
+                              <type>DESIGNER</type>
+                              <definition>SWI_2D_MAP_OTF_V1_38</definition>
+                              <unit>SWI</unit>
+                              <target>planet.jupiter</target>
+                              <startDelta>+00:00:00</startDelta>
+                              <endDelta>+00:00:00</endDelta>
+                              <startTime>2032-12-26T10:15:31</startTime>
+                              <endTime>2032-12-26T11:29:10</endTime>
+                           </observation>
+                        </observations>
+                     </planning>
+                  </metadata>
+               </block>
+
+               <!-- Block (304) -->
+               <block ref="SLEW" />
+
+               <!-- Block (305) -->
+               <block ref="OBS">
+                  <startTime> 2032-12-26T11:36:23 </startTime>
+                  <endTime> 2032-12-26T12:09:18 </endTime>
+                  <attitude ref="inertial">
+                     <boresight ref="JUICE_UVS_Xaxis" />
+                     <phaseAngle ref="align">
+                        <SCAxis frame="SC">
+                           <x> 1 </x>
+                           <y> 0 </y>
+                           <z> 0 </z>
+                        </SCAxis>
+                        <inertialAxis ref="rotate">
+                           <axis ref="JP2Sun" />
+                           <rotationAxis ref="SC2JP" />
+                           <rotationAngle units="deg"> 180 </rotationAngle>
+                        </inertialAxis>
+                     </phaseAngle>
+                     <target frame="EME2000">
+                        <lon units="deg"> 235.671 </lon>
+                        <lat units="deg"> -34.7104 </lat>
+                     </target>
+                  </attitude>
+                  <metadata>
+                       <comment> Occultation of Jupiter by HD140008 </comment>
+                     <planning>
+                        <observations designer="UVS">
+                           <observation>
+                              <type>DESIGNER</type>
+                              <definition>UVS_JUP_AP_STELL_OCC</definition>
+                              <unit>UVS</unit>
+                              <target>planet.jupiter</target>
+                              <startDelta>+00:00:00</startDelta>
+                              <endDelta>+00:00:00</endDelta>
+                              <startTime>2032-12-26T11:31:23</startTime>
+                              <endTime>2032-12-26T12:13:18</endTime>
+                           </observation>
+                        </observations>
+                     </planning>
+                  </metadata>
+               </block>
+
+               <!-- Block (306) -->
+               <block ref="SLEW" />
+
+               <!-- Block (307) -->
+               <block ref="OBS">
+                  <startTime> 2032-12-26T12:15:31 </startTime>
+                  <endTime> 2032-12-26T12:41:31 </endTime>
+                  <attitude ref="track">
+                     <boresight ref="SC_Zaxis" />
+                     <phaseAngle ref="powerOptimised">
+                        <yDir> false </yDir>
+                        <angle units="deg"> 90 </angle>
+                     </phaseAngle>
+                     <target ref="Jupiter" />
+                  </attitude>
+                  <metadata>
+                     <planning>
+                        <observations designer="SWI">
+                           <observation>
+                              <type>DESIGNER</type>
+                              <definition>SWI_NADIR_STARE_FS_V1_14</definition>
+                              <unit>SWI</unit>
+                              <target>planet.jupiter</target>
+                              <startDelta>+00:00:00</startDelta>
+                              <endDelta>+00:00:00</endDelta>
+                              <startTime>2032-12-26T12:15:31</startTime>
+                              <endTime>2032-12-26T12:41:31</endTime>
+                           </observation>
+                        </observations>
+                     </planning>
+                  </metadata>
+               </block>
+        </timeline>
+    </data>
+    </segment>
+</body>
+</prm>

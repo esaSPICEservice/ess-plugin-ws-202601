@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Pointing Timeline Header
+Output Filename: ptr_resolved.ptx
+Generation Time: 2025-01-30T09:08:35 (UTC)
+AGM Version:     MAPPS_AGM_9.3.18_5d220831
+-->
+<!-- Pointing Timeline Statistics
+Total Blocks:             807
+   Slew Blocks:           396
+   Pointing Blocks:       411
+      Maintenance Blocks: 7
+      Observation Blocks: 404
+-->
+<prm>
+  <body>
+    <segment>
+      <data>
+        <timeline frame="SC">
+          <block ref="OBS">
+            <startTime> 2033-01-03T02:40:00 </startTime>
+            <endTime> 2033-01-03T02:57:46 </endTime>
+            <attitude ref="limb">
+              <boresight ref="SC_Zaxis"/>
+              <phaseAngle ref="align">
+                <SCAxis frame="SC">
+                  <x> 1 </x>
+                  <y> 0 </y>
+                  <z> 0 </z>
+                </SCAxis>
+                <inertialAxis ref="rotate">
+                  <axis ref="JPNorthPole"/>
+                  <rotationAxis ref="SC2JP"/>
+                  <rotationAngle units="deg"> -90 </rotationAngle>
+                </inertialAxis>
+              </phaseAngle>
+              <targetDir ref="rotate">
+                <axis ref="JPNorthPole"/>
+                <rotationAxis ref="SC2JP"/>
+                <rotationAngle units="deg"> 0 </rotationAngle>
+              </targetDir>
+              <height units="km"> 0 </height>
+              <surface ref="Jupiter"/>
+            </attitude>
+            <metadata>
+              <planning>
+                <observations designer="MAJIS">
+                  <observation>
+                    <type>DESIGNER</type>
+                    <definition>MAJ_JUP_DISK_SCAN</definition>
+                    <unit>MAJIS</unit>
+                    <startDelta>+00:00:00</startDelta>
+                    <endDelta>+00:00:00</endDelta>
+                    <startTime>2033-01-03T02:40:00</startTime>
+                    <endTime>2033-01-03T02:57:46</endTime>
+                  </observation>
+                </observations>
+              </planning>
+            </metadata>
+          </block>
+        </timeline>
+      </data>
+    </segment>
+  </body>
+</prm>
